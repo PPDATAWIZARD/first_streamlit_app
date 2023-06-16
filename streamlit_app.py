@@ -40,3 +40,4 @@ streamlit.write('The user entered ', add_my_fruit)
 
 #fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "jackfruit")
 
+my_cur.execute("insert into FRUIT_LOAD_LIST values ('FROM Streamlit')")
